@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y;
+
+    // Ask for two integer numbers
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "Enter y: ";
+    cin >> y;
+
+    // Add y to x and assign it to x using the += operator
+    x += y;
+
+    // Print the final result
+    cout << "Result: " << x << endl;
+
+    return 0;
+}
