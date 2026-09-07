@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+
+    // Ask for an integer number
+    cout << "Enter an integer number: ";
+    cin >> num;
+
+    // Add 1 and assign it using the += operator
+    num += 1;
+
+    // Print the updated number
+    cout << "The updated number is: " << num << endl;
+
+    return 0;
+}
