@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Character A:\t\"Hello there!\"\n";
+    cout << "Character B:\t'Hi! How are you?'\n";
+    cout << "Character A:\t'I'm doing great.' Thanks for asking!\n";
+    cout << "Character C:\t\"Hey, what's going on?\"\n";
+    cout << "Character B:\t\"We were just catching up.\"\n";
+    cout << "Character A:\t\"Yeah, it's been a while.\"\n";
+    cout << "Character C:\t\"Nice to see you both!\"\n";
+    cout << "Character B:\t\"Likewise! How have you been?\"\n";
+    cout << "Character C:\t\"I've been good. Thanks!\"\n";
+    cout << "Character A:\t\"That's great to hear.\"\n";
+    return 0;
+}
