@@ -1,0 +1,29 @@
+#include <iostream>
+#include <iomanip> // Needed for setting decimal places
+
+using namespace std;
+
+int main() {
+    double kmph;
+    int hour;
+
+    // Ask for float input for kilometers per hour
+    cout << "Enter kilometers per hour: ";
+    cin >> kmph;
+
+    // Ask for integer input for the number of hours traveled
+    cout << "Enter number of hours traveled: ";
+    cin >> hour;
+
+    // Calculate distance in kilometers
+    double distance = kmph * hour;
+
+    // Convert distance into miles
+    double miles = distance * 0.621371;
+
+    // Print the distance in miles formatted to three decimal places
+    cout << fixed << setprecision(3);
+    cout << "Distance in miles: " << miles << endl;
+
+    return 0;
+}
