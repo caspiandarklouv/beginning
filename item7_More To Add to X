@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y, z;
+
+    // Matching exact prompt text
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "Enter y: ";
+    cin >> y;
+    cout << "Enter z: ";
+    cin >> z;
+
+    // Using the += operator as requested
+    x += (y + z);
+
+    // Matching exact output text
+    cout << "Result: " << x << endl;
+
+    return 0;
+}
