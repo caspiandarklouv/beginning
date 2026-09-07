@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Database Record" << endl;
+    cout << "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" << endl;
+    cout << "Name:\t\tJohn Doe" << endl;
+    cout << "Email:\t\tjohn.doe@example.com" << endl;
+    cout << "University:\tABC University" << endl;
+    return 0;
+}
